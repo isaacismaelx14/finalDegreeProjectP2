@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             textBoxLabel = new Panel();
-            textBox1 = new TextBox();
+            tbCodigo = new TextBox();
             label1 = new Label();
             panel1 = new Panel();
-            textBox2 = new TextBox();
+            tbProducto = new TextBox();
             label2 = new Label();
             panel2 = new Panel();
-            textBox3 = new TextBox();
+            tbPrecio = new TextBox();
             label3 = new Label();
             panel3 = new Panel();
-            textBox4 = new TextBox();
+            tbQuantity = new TextBox();
             label4 = new Label();
             panel4 = new Panel();
             button1 = new Button();
@@ -58,20 +58,20 @@
             // 
             // textBoxLabel
             // 
-            textBoxLabel.Controls.Add(textBox1);
+            textBoxLabel.Controls.Add(tbCodigo);
             textBoxLabel.Controls.Add(label1);
             textBoxLabel.Location = new Point(3, 3);
             textBoxLabel.Name = "textBoxLabel";
             textBoxLabel.Size = new Size(129, 52);
             textBoxLabel.TabIndex = 0;
             // 
-            // textBox1
+            // tbCodigo
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(3, 23);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(123, 23);
-            textBox1.TabIndex = 1;
+            tbCodigo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tbCodigo.Location = new Point(3, 23);
+            tbCodigo.Name = "tbCodigo";
+            tbCodigo.Size = new Size(123, 23);
+            tbCodigo.TabIndex = 1;
             // 
             // label1
             // 
@@ -84,20 +84,20 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(tbProducto);
             panel1.Controls.Add(label2);
             panel1.Location = new Point(135, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(262, 52);
             panel1.TabIndex = 2;
             // 
-            // textBox2
+            // tbProducto
             // 
-            textBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBox2.Location = new Point(3, 23);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(256, 23);
-            textBox2.TabIndex = 1;
+            tbProducto.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tbProducto.Location = new Point(3, 23);
+            tbProducto.Name = "tbProducto";
+            tbProducto.Size = new Size(256, 23);
+            tbProducto.TabIndex = 1;
             // 
             // label2
             // 
@@ -110,20 +110,20 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(textBox3);
+            panel2.Controls.Add(tbPrecio);
             panel2.Controls.Add(label3);
             panel2.Location = new Point(403, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(124, 52);
             panel2.TabIndex = 3;
             // 
-            // textBox3
+            // tbPrecio
             // 
-            textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBox3.Location = new Point(3, 23);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(118, 23);
-            textBox3.TabIndex = 1;
+            tbPrecio.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tbPrecio.Location = new Point(3, 23);
+            tbPrecio.Name = "tbPrecio";
+            tbPrecio.Size = new Size(118, 23);
+            tbPrecio.TabIndex = 1;
             // 
             // label3
             // 
@@ -136,20 +136,20 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(textBox4);
+            panel3.Controls.Add(tbQuantity);
             panel3.Controls.Add(label4);
             panel3.Location = new Point(533, 3);
             panel3.Name = "panel3";
             panel3.Size = new Size(124, 52);
             panel3.TabIndex = 4;
             // 
-            // textBox4
+            // tbQuantity
             // 
-            textBox4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBox4.Location = new Point(3, 23);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(118, 23);
-            textBox4.TabIndex = 1;
+            tbQuantity.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tbQuantity.Location = new Point(3, 23);
+            tbQuantity.Name = "tbQuantity";
+            tbQuantity.Size = new Size(118, 23);
+            tbQuantity.TabIndex = 1;
             // 
             // label4
             // 
@@ -269,16 +269,16 @@
         #endregion
 
         private Panel textBoxLabel;
-        private TextBox textBox1;
+        private TextBox tbCodigo;
         private Label label1;
         private Panel panel1;
-        private TextBox textBox2;
+        private TextBox tbProducto;
         private Label label2;
         private Panel panel2;
-        private TextBox textBox3;
+        private TextBox tbPrecio;
         private Label label3;
         private Panel panel3;
-        private TextBox textBox4;
+        private TextBox tbQuantity;
         private Label label4;
         private Panel panel4;
         private Button button1;

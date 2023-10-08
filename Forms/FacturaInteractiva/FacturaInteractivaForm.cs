@@ -9,18 +9,27 @@
             InitializeComponent();
         }
 
+        private void ClearForm()
+        {
+            tbCodigo.Text = "";
+            tbProducto.Text = "";
+            tbPrecio.Text = "";
+            tbQuantity.Text = "";
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (
-                !string.IsNullOrEmpty(textBox1.Text) &&
-                !string.IsNullOrEmpty(textBox2.Text) &&
-                decimal.TryParse(textBox3.Text, out decimal precio) &&
-                int.TryParse(textBox4.Text, out int cantidad)
+                !string.IsNullOrEmpty(tbCodigo.Text) &&
+                !string.IsNullOrEmpty(tbProducto.Text) &&
+                decimal.TryParse(tbPrecio.Text, out decimal precio) &&
+                int.TryParse(tbQuantity.Text, out int cantidad)
                )
             {
-                dataGridView1.Rows.Add(textBox1.Text, textBox2.Text, precio, cantidad);
+                dataGridView1.Rows.Add(tbCodigo.Text, tbProducto.Text, precio, cantidad);
                 total += precio * cantidad;
                 UpdateTotal();
+                ClearForm();
             }
             else
             {
