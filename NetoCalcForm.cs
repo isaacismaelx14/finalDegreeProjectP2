@@ -32,7 +32,6 @@
             decimal totalDescuento = afp + ars + cooperativa + isr;
             decimal sueldoNeto = sueldoBruto - totalDescuento;
 
-            // Asignar los valores calculados a los controles en el formulario
             lbAfp.Text = afp.ToString("C2");
             lbArs.Text = ars.ToString("C2");
             lbCooperativa.Text = cooperativa.ToString("C2");
