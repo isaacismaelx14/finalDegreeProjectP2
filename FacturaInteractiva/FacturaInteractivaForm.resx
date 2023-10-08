@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Gestionar tus facturas es un juego de niños. Ingresa y totaliza productos fácilmente a través de campos intuitivos, elimina filas con un clic y observa cómo se actualiza el total automáticamente. ¡Tu proceso de facturación ahora más fluido y eficaz!</value>
-  </data>
 </root>

@@ -1,3 +1,5 @@
+using finalDegreeProjectP2.FacturaInteractiva;
+
 namespace finalDegreeProjectP2
 {
     public partial class MainForm : Form
@@ -9,8 +11,14 @@ namespace finalDegreeProjectP2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            NetoCalcForm netoCalc = new NetoCalcForm();
+            NetoCalcForm netoCalc = new();
             netoCalc.ShowDialog();
+        }
+
+        private void btnExecuteFactura_Click(object sender, EventArgs e)
+        {
+            FacturaInteractivaForm facturaInteractivaForm = new();
+            facturaInteractivaForm.ShowDialog();
         }
     }
 }
