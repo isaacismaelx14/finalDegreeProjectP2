@@ -20,21 +20,10 @@ This is the final degree project of the Programming II subject. The project is d
     - [License](#license)
 
 ## Screenshots
-
-<div style="display:grid;grid-template-columns:repeat(2,1fr);grid-gap:10px;">
-    <div class="column">
-        <img src="./assets/login.png" alt="Login" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="./assets/welcome.png" alt="Salary" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="./assets/neto-calc.png" alt="Invoice" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="./assets/invoice.png" alt="Invoice" style="width:100%">
-    </div>
-</div>
+| | |
+|:-------------------------:|:-------------------------:|
+|<img src="./assets/login.png" alt="Login" style="width:100%">|<img src="./assets/welcome.png" alt="Salary" style="width:100%">|
+|<img src="./assets/neto-calc.png" alt="Invoice" style="width:100%">|<img src="./assets/invoice.png" alt="Invoice" style="width:100%">|
 
 ## Installation
 
